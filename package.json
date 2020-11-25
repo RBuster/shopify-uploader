@@ -1,0 +1,38 @@
+{
+  "name": "shopify-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RBuster/shopify-upload.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RBuster/shopify-upload/issues"
+  },
+  "homepage": "https://github.com/RBuster/shopify-upload#readme",
+  "dependencies": {
+    "@shopify/koa-shopify-auth": "^3.1.68",
+    "@shopify/polaris": "^5.2.1",
+    "@zeit/next-css": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.13.0",
+    "koa-session": "^6.0.0",
+    "next": "^9.5.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-csv-reader": "^3.1.1",
+    "react-dom": "^16.13.1",
+    "react-multi-select-component": "^3.0.1"
+  }
+}

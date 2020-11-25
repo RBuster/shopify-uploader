@@ -23,3 +23,9 @@ yarn-debug.log*
 yarn-error.log*
 
 .env
+
+# next.js build output
+.next
+# dotenv environment variables file (build for Zeit Now)
+.env
+.env.build
